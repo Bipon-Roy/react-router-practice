@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./assets/components/Home/Home";
-import Header from "./assets/components/Header/Header";
-import About from "./assets/components/About/About";
-import Contact from "./assets/components/Contact/Contact";
-import Users from "./assets/components/Users/Users";
-import UserDetails from "./assets/components/UserDetails/UserDetails";
-import Posts from "./assets/components/Posts/Posts";
-import PostDetails from "./assets/components/PostDetails/PostDetails";
-import ErrorPage from "./assets/components/ErrorPage/ErrorPage";
+import Home from "./components/Home/Home";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Users from "./components/Users/Users";
+import UserDetails from "./components/UserDetails/UserDetails";
+import Posts from "./components/Posts/Posts";
+import PostDetails from "./components/PostDetails/PostDetails";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
     {
